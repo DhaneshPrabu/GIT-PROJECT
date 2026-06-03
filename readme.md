@@ -47,6 +47,18 @@ TO Push all Local git File to git Hub  :  git push -u origin main (It redirect t
 
 
 
+# now add muliple sub branch to the main branch
+TO Create branch            :  git branch 'bug' (bug is the branch name)
+TO checkout the branch      :  git checkout bug (switch to bug branch)
+
+TO create and checkout both :  git checkout -b 'feature' (It will create a feature branch inside the bug branch
+                                    bcz we are in bug branch inside bug branch we create a another checkout branch so inside the bug branch feature branch is presentk)
+
+TO create branch from specefic Branch:   git checkout -b feature2 bug (bug is exiting branch in that bug branch
+                                            we create a new branch as a feature2 branch)
+
+
+
 
 
 
