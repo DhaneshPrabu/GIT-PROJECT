@@ -37,7 +37,12 @@ Without change come to main 		 :  git checkout -f main (Force checkout)
 
 
 
-
+# then Sign In to hit hub using google account in github.com
+# Create repository in git hub in this put any repository name  and Submit
+TO Connect Local git to remote git Hub :  git remote add origin https://github.com/DhaneshPrabu/GIT-PROJECT.git
+TO Create Main in Git Hub              :  git branch -M main
+TO Push all Local git File to git Hub  :  git push -u origin main (It redirect to authrization Screen finish 
+                                            authorization)
 
 
 
