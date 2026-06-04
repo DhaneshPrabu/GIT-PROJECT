@@ -71,6 +71,15 @@ Simple Command to push branch     : git push -u orgin feature
 Push branch                       : git push (Only the first time it need the full command like 
                                         --git push -u orgin feature once it done --git push this command is enough to push to the remote repo when the commit complete)
 
+TO create and checkout both :  git checkout -b 'feature' (It will create a feature branch inside the bug branch
+                                    bcz we are in bug branch inside bug branch we create a another checkout branch so inside the bug branch feature branch is presentk)
+
+TO create branch from specefic Branch:   git checkout -b feature2 bug (bug is exiting branch in that bug branch
+                                            we create a new branch as a feature2 branch)
+
+
+
+# -------------- This is a Feature Branch ----------------
 
 
 
