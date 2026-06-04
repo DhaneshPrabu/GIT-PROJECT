@@ -79,7 +79,7 @@ TO create branch from specefic Branch:   git checkout -b feature2 bug (bug is ex
 
 
 
-# -------------- This is a Feature Branch ----------------
+# -------------- This is a Bug Branch ----------------
 
 
 
@@ -115,7 +115,8 @@ Objective :-
             to the git local main branch
 
 
-git merge --abort : To not see the (menu like compare change,HEAD,Main)
+git merge --abort : Don't know why the command is
+
     
     
 
