@@ -78,7 +78,35 @@ Push branch                       : git push (Only the first time it need the fu
 
 Merge the sub branch to main branch                            :  git merge(not recommended)
 when we create branch in remote repo fetch to git local        :  git fetch
-fecth and merge in local when we create branch in remote repo  :  git pull
+fecth and merge in local when we create branch in remote repo  :  git pull (used for both fetch and merge)
+
+
+# While conflict is occurs when we merge the sub branch to main branch
+Objective :-
+    - 1st we need to merge the main branch to sub branch (main -> subBranch Flow like this main to subBranch 
+            bcz sub branch not cotain the main branch details so we merge the main branch to sub branch)
+    -we need to check our  local repository have the updated main so checkout to main and (-- git pull ) to
+             fetch and merge the github main to local git main.Now we got the updated main.
+    - the checkout to sub branch main use ( -- git merge main ) to merge the local main branch to local sub
+             branch 
+    - Now it show options like -- (>>> main (Incoming change) )(main branch change come to sub branch)
+                               -- (<<< HEAD (Current Change) )(sub branch go to main branch)
+                               -- accept both change (merge the sub branch change (have both main and sub 
+                                        branch change))
+                               -- Compare changes 
+    -  -- click (resolve in mere editor) now it shows compare screen and we can edit the Result screen for the 
+                final change.
+
+    - click complete merge then click complete with confilcts
+    - git add . (add this modified to git local)
+    - git commit -m 'redme conflict merge'
+    - git push
+    - new pull Request(PR) (need to Complete the PR steps)
+    - after complete the PR (pull request)  -- git pull for the main branch to update the github main branch 
+            to the git local main branch
+
+    
+    
 
 
 
