@@ -66,11 +66,19 @@ TO See the list of local branch         :  git branch
 To see all branch include remote branch :  git branch -a
 
 # To push the this branch to remote repository like gitHub
-Push particular branch to git hub : git push --set-upstream orgin bug (bug is a branch name)
+Push particular branch to git hub : git push --set-upstream origin bug (bug is a branch name)
 Simple Command to push branch     : git push -u orgin feature
 Push branch                       : git push (Only the first time it need the full command like 
                                         --git push -u orgin feature once it done --git push this command is enough to push to the remote repo when the commit complete)
 
+
+
+
+# Merge sub branch to main Branch
+
+Merge the sub branch to main branch                            :  git merge(not recommended)
+when we create branch in remote repo fetch to git local        :  git fetch
+fecth and merge in local when we create branch in remote repo  :  git pull
 
 
 
