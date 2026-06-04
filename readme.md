@@ -118,7 +118,7 @@ Objective :-
 git merge --abort : Don't know why the command is using
 
     
-
+To change in multiple file is also the same process
 
 
 
