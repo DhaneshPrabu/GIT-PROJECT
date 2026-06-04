@@ -118,7 +118,6 @@ Objective :-
 git merge --abort : Don't know why the command is
 
     
-    
 
 
 
