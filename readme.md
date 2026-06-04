@@ -59,7 +59,7 @@ TO create branch from specefic Branch:   git checkout -b feature2 bug (bug is ex
 
 
 
-# -------------- This is a Feature Branch ----------------
+# -------------- This is a Main Merge Branch ----------------
 
 
 
