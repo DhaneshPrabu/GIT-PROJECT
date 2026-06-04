@@ -105,6 +105,8 @@ Objective :-
     - after complete the PR (pull request)  -- git pull for the main branch to update the github main branch 
             to the git local main branch
 
+
+git merge --abort : To not see the (menu like compare change,HEAD,Main)
     
     
 
