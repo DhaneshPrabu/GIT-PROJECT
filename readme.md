@@ -122,3 +122,39 @@ To change in multiple file is also the same process
 
 
 
+# Git Process:
+        - Reset (Normal, soft, hard)
+        - Revert 
+        - stach
+
+
+# Reset Command
+
+git log : get the hash value of git commit form git log
+git reset 'Hash value of commit Log' : It will moved to Unstaged state and add into git local and commit (
+                                           git add . & git commit -m 'VALUE') It will have the git logs.
+git reset --soft 'Hash value of commit Log' : It will moved to staged state and no need to add in git local ,   It need only the commit. It will remove the all commit log after the Hash value of commit Log.   
+git reset --hard 'Hash value of commit Log' : It will automatically commit ,no need of git add . & commit command .
+
+# Revert :
+
+git revert 'Hash value of commit Log' :  undo the changes introduced by a specific commit without deleting the commit history
+
+
+# git revert vs git reset
+
+| Command             | Effect                                                   |
+| ------------------- | -------------------------------------------------------- |
+| `git revert <hash>` | Creates a new commit that undoes changes                 |
+| `git reset <hash>`  | Moves branch pointer and can remove commits from history |
+
+
+# stash :
+
+git stash : Save uncommitted changes and clean the working directory
+git stash list : Show all stashed changes.
+git stash apply 'stash@{0}' :  Apply a specific stash.  htis is a stash value.
+
+
+
+
