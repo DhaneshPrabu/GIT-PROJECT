@@ -1,6 +1,9 @@
 GIT
 ====
 
+# To check the version is instaled 
+git --version : It will check the git version and to check the git is install or not
+
 # Multiple people works in same repository so we create a user name and password for the particular user
 
 Create User Name:   git config --global user.name 'dhanesh'
