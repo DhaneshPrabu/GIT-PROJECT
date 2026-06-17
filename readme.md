@@ -91,6 +91,7 @@ TO create branch from specefic Branch:   git checkout -b feature2 bug (bug is ex
 Merge the sub branch to main branch                            :  git merge(not recommended)
 when we create branch in remote repo fetch to git local        :  git fetch
 fecth and merge in local when we create branch in remote repo  :  git pull (used for both fetch and merge)
+TO get the Particular branch from the remate Repo              : git pull origin <Branch-name>
 
 
 # While conflict is occurs when we merge the sub branch to main branch
